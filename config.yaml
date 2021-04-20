@@ -17,10 +17,10 @@ settings:
 
 # list of monitors
 monitors:
-  - id: athemm-me # unique identifier
-    name: athemm.me
+  - id: athemm-rocks # unique identifier
+    name: athemm.rocks
     description: '' # default=empty
-    url: 'http://athemm.me/' # URL to fetch
+    url: 'https://www.athemm.rocks/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+    followRedirect: true # should fetch follow redirects, default=false
